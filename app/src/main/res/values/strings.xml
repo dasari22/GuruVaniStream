@@ -1,0 +1,53 @@
+<!--
+    Copyright:
+    2015/2016 Benjamin Aigner
+
+    This file is part of AustrianPublicStream.
+
+    AustrianPublicStream is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    AustrianPublicStream is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with AustrianPublicStream.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <string name="app_name">GuruVani</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings - shared preferences names (used allover the app) -->
+    <string name="SETTINGS_DOWNLOADFOLDER">settingDownloadFolder</string>
+    <string name="SETTINGS_SHOW_PLAY_NOTIFICATION">settingPlayNotification</string>
+    <string name="SETTINGS_SHOW_PAUSED_NOTIFICATION">settingPausedNotification</string>
+    <string name="SETTINGS_SHOW_LOCKSCREEN_NOTIFICATION">settingLockscreenNotification</string>
+    <string name="SETTINGS_REFETCH_INTERVAL">settingRefetchInterval</string>
+
+    <!-- Example General settings -->
+    <string name="pref_about">About this app</string>
+
+    <string name="pref_title_refetch_interval">Update the list</string>
+    <string name="pref_description_refetch_interval">How often should the list of online Updating Contributions (minutes)</string>
+
+    <string name="pref_title_download_folder">Download - Folder</string>
+    <string name="pref_description_download_folder">Where are the offline contributions saved ?</string>
+
+    <string name="pref_title_play_notification">Notification - Play</string>
+    <string name="pref_description_play_notification"> If a notification when playing are displayed?</string>
+
+    <string name="pref_title_pause_notification">Alert - Pause</string>
+    <string name="pref_description_pause_notification">A notification will be displayed if the discourse is paused?</string>
+
+    <string name="pref_title_lockscreen_notification">Alert - lock screen</string>
+    <string name="pref_description_lockscreen_notification">A notification will be displayed on the lock screen! TBD ; not implemented yet</string>
+
+    <!-- about dialog -->
+    <string name="about_title">About this app</string>
+    <string name="about_message">GuruVani Version:0.01</string>
+</resources>

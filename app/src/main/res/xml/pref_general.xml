@@ -1,0 +1,64 @@
+<!--
+ Copyright:
+ 2015/2016 Sunny Dasari
+ developer.google.com
+
+ This file is part of AustrianPublicStream.
+
+ GuruVani is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ GuruVani is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with GuruVani.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/SETTINGS_REFETCH_INTERVAL"
+        android:title="@string/pref_title_refetch_interval"
+        android:contentDescription="@string/pref_description_refetch_interval"
+        android:defaultValue="5"
+        android:selectAllOnFocus="true"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="@string/SETTINGS_DOWNLOADFOLDER"
+        android:title="@string/pref_title_download_folder"
+        android:contentDescription="@string/pref_description_download_folder"
+        android:defaultValue=""
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <SwitchPreference
+        android:key="@string/SETTINGS_SHOW_PLAY_NOTIFICATION"
+        android:title="@string/pref_title_play_notification"
+        android:contentDescription="@string/pref_description_play_notification"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="@string/SETTINGS_SHOW_PAUSED_NOTIFICATION"
+        android:title="@string/pref_title_pause_notification"
+        android:contentDescription="@string/pref_description_pause_notification"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="@string/SETTINGS_SHOW_LOCKSCREEN_NOTIFICATION"
+        android:title="@string/pref_title_lockscreen_notification"
+        android:contentDescription="@string/pref_description_lockscreen_notification"
+        android:defaultValue="true" />
+
+    <Preference
+        android:key="loadAbout"
+        android:title="@string/pref_about"/>
+</PreferenceScreen>
