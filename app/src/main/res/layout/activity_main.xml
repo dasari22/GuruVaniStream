@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold"
-            android:text="Kein geladener Beitrag"
+            android:text="No contribution charged"
             android:id="@+id/textViewCurrentStream"
             android:layout_gravity="bottom"
             android:layout_weight = "0"/>

@@ -407,7 +407,9 @@ public class MainActivity extends AppCompatActivity {
                     if(settingsPath.equals("")) settingsPath = Environment.getExternalStorageDirectory().toString();
 
                     File folder = new File(settingsPath + "/01-Posts");
-                    fileName = datum + "-" + child.time.replace(':','.') + "-" + child.shortTitle + ".mp3";
+                    //fileName = datum + "-" + child.time.replace(':','.') + "-" + child.shortTitle + ".mp3";
+                    //Test URL
+                    fileName = "http://listen.radionomy.com:80/SwastikTeluguBhajansDhuns";
                     folder.mkdirs();
 
                     File file = new File(folder, fileName);
